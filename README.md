@@ -19,7 +19,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Links
 
 - Solution URL: [](https://www.frontendmentor.io/solutions/qr-code-component-using-sass-iizmRsrD9s)
-- Live Site URL: [](https://devhnry.github.io/qr-code-component-main/)
+- Live Site URL: [Github Pages](https://devhnry.github.io/qr-code-component-main/)
 
 ## My process
 
