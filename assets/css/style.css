@@ -9,7 +9,11 @@ html {
   font-size: 62.5%; }
 
 body {
-  box-sizing: border-box; }
+  background-color: #d6e2f0;
+  box-sizing: border-box;
+  min-height: 100vh;
+  display: grid;
+  place-items: center; }
 
 body {
   font-family: 'Outfit', sans-serif; }
@@ -34,16 +38,16 @@ body {
   background-color: white;
   padding: 2rem;
   width: 32rem;
-  border-radius: 1rem;
+  border-radius: 2rem;
   box-shadow: 0 2rem 2rem rgba(31, 50, 81, 0.1); }
   .card > * {
     margin-bottom: 2rem; }
   .card__textbox > *:not(:last-child) {
     margin-bottom: 1.5rem; }
   .card__img {
-    width: 100%;
+    max-width: 100%;
     display: inline-block;
-    border-radius: 1rem; }
+    border-radius: 2rem; }
 
 .footer {
   position: fixed;
@@ -58,6 +62,4 @@ body {
     text-decoration: none; }
 
 .main {
-  height: 100vh;
-  position: relative;
-  background-color: #d6e2f0; }
+  position: relative; }
