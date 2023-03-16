@@ -1,0 +1,15 @@
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 2rem;
+    color: $color-secondary-2;
+    font-size: 1.2rem;
+
+
+    &__link{
+        color: $color-secondary-1;
+        text-decoration: none;
+    }
+}
